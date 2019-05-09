@@ -2,7 +2,7 @@
 
 
 ## Intro & Motivation
-NMF is a powerful linear-algebra tool often used in recommender systems, as it performs well in sparse circumstances. NMF can extract latent "topics" from a matrix - think movie genres, article subjects, etc. It works by decomposing an m x n matrix into a m x p matrix, W, and a p x n matrix, H, with p being the number of latent topics.
+NMF is a powerful linear-algebra tool often used in recommender systems, as it performs well in sparse circumstances. NMF can extract latent "topics" from a matrix - think movie genres, article subjects, etc. It works by decomposing an *m x n* matrix into a *m x p* matrix, __W__, and a *p x n* matrix, __H__, with *p* being the number of latent topics.
 
 ![](imgs/NMF.png)
 
