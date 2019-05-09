@@ -39,7 +39,7 @@ def make_historical_purchase_matrix(custy_df, order_df, product_df):
     
     historical_purchase_df = pd.DataFrame(0, index=custy_df.index, columns=product_df['Product ID'])
 
-    for customer in feature_extraction_df.index.values:
+    for customer in custy_df.index.values:
 
         mask = order_df[order_df['Customer ID'] == customer] # mask for all orders under a customer
 
@@ -61,6 +61,8 @@ def make_historical_purchase_matrix(custy_df, order_df, product_df):
                     pass
                 
                 else: historical_purchase_df[prod_id][customer] += prod_qty
+                    
+    historical_purchase_matrix = historical_purchase_df.as_matrix()                   
     print("historical itemized matrix assembled.") 
 
     return historical_purchase_df, historical_purchase_matrix
