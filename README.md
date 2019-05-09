@@ -1,4 +1,4 @@
-# This repo corresponds to [my Medium post!](https://medium.com/@domvandendries/using-ml-to-predict-lifetimes-of-new-customers-685051ff75f8?source=friends_link&sk=79600802708579d86df13eee69aceb34)
+# This repo corresponds to [my Medium post!](https://medium.com/@domvandendries/engineering-your-webstore-with-nmf-a33ed5eac892?source=friends_link&sk=2f63f8b0c122a1cc24915350f407cf2c)
 
 
 ## Intro & Motivation
@@ -6,7 +6,7 @@ NMF is a powerful linear-algebra tool often used in recommender systems, as it p
 
 ![](imgs/NMF.png)
 
+The __W__ matrix represents how much each movie-watcher/customer/author belongs to each topic. The __H__ matrix represents how much each movie/product/article belongs to each topic.
 
 
-
-# Intrigued? Read the rest on [Medium!](https://medium.com/@domvandendries/using-ml-to-predict-lifetimes-of-new-customers-685051ff75f8?source=friends_link&sk=79600802708579d86df13eee69aceb34)
+# Intrigued? Read the rest on [Medium!](https://medium.com/@domvandendries/engineering-your-webstore-with-nmf-a33ed5eac892?source=friends_link&sk=2f63f8b0c122a1cc24915350f407cf2c)
